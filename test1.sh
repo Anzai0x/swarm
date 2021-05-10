@@ -36,7 +36,7 @@ chmod a+x cashout.sh
 #后台运行clef-service
 cd /mnt/bee/
 screen -S clef
-./clef-service start
+sh clef-service start
 
 #后台运行bee
 #cd /mnt/bee/
