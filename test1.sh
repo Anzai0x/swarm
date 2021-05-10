@@ -9,8 +9,7 @@ mkdir bee
 cd bee
 
 #下载clef-service
-wget https://gateway.ethswarm.org/files/34c2b1a9a793f655f9b67afed726ba00794cfc77d951a3e017f4f2c7a6bc281c
-mv 34c2b1a9a793f655f9b67afed726ba00794cfc77d951a3e017f4f2c7a6bc281c clef-service
+wget https://raw.githubusercontent.com/MichaelJi233/cryptohunter/main/clef-service
 chmod a+x /mnt/bee/clef-service
 
 #下载clef并安装clef
