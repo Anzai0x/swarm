@@ -9,11 +9,11 @@ mkdir bee
 cd bee
 
 #下载clef-service
+yum install -y wget
 wget https://raw.githubusercontent.com/MichaelJi233/cryptohunter/main/clef-service
 chmod a+x /mnt/bee/clef-service
 
 #下载clef并安装clef
-yum install -y wget
 wget https://github.com/ethersphere/bee-clef/releases/download/v0.4.10/bee-clef_0.4.10_amd64.rpm
 rpm -i bee-clef_0.4.10_amd64.rpm
 
