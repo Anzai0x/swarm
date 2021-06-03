@@ -22,6 +22,7 @@ wget https://github.com/ethersphere/bee/releases/download/v0.6.2/bee_0.6.2_amd64
 rpm -i bee_0.6.2_amd64.rpm
 
 #安装screen、epel源、jq
+yum update
 yum install -y screen
 yum install -y epel-release
 yum install -y jq
