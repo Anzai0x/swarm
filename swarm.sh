@@ -27,7 +27,7 @@ yum install -y epel-release
 yum install -y jq
 
 #下载兑现支票脚本
-wget -O cashout.sh https://gist.githubusercontent.com/ralph-pichler/3b5ccd7a5c5cd0500e6428752b37e975/raw/b40510f1172b96c21d6d20558ca1e70d26d625c4/cashout.sh
+wget -O cashout.sh https://gist.githubusercontent.com/ralph-pichler/3b5ccd7a5c5cd0500e6428752b37e975/raw/cashout.sh
 
 #赋予权限
 chmod a+x cashout.sh
