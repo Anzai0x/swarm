@@ -1,4 +1,5 @@
 #!/bin/bash
+#Ubuntu 18.04 ，使用服务自启动.
 add-apt-repository -y ppa:git-core/ppa
 apt-get -y update
 apt-get install -y git
@@ -36,5 +37,5 @@ echo '============================================================='
 echo '显示运行状态输入：systemctl status rpc'
 echo '运行log存放在：/var/log/rpc.log'
 echo '欢迎加入Swarm最大中文社区：Crypto Hunter'
-echo '==================================Aven7======================='
+echo '============================================================='
 systemctl status rpc
