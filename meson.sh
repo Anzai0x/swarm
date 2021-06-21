@@ -1,3 +1,4 @@
+#!/bin/bash
 
 firewall-cmd --zone=public --add-port=19091/tcp --permanent
 firewall-cmd --reload
